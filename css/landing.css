@@ -28,10 +28,7 @@
     margin: 5px;
 }
 
-#img3 {
-    max-width: 100%;
-    height: auto;
-}
+
 
 #concert {
     text-align: center;
@@ -65,9 +62,4 @@
     padding: 10px;
     text-align: center;
     background-color: #ffe600;
-}
-
-#img6 {
-    max-width: 100%;
-    height: auto;
 }
