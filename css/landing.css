@@ -1,0 +1,73 @@
+
+#img1 {
+    max-width: 100%;
+    height: auto;
+}
+
+#season {
+    padding: 10px;
+    text-align: center;
+    background-color: #ffb300;
+}
+
+#img2 {
+    max-width: 100%;
+    height: auto;
+}
+
+#community {
+    text-justify: auto;
+    text-align: center;
+}
+
+#community-img {
+    display: block;
+    float: right;
+    max-width: 50%;
+    height: auto;
+    margin: 5px;
+}
+
+#img3 {
+    max-width: 100%;
+    height: auto;
+}
+
+#concert {
+    text-align: center;
+}
+
+#family {
+    padding: 10px;
+    text-justify: auto;
+    text-align: center;
+    background-color: #ffe600;
+}
+
+#img4 {
+    max-width: 100%;
+    height: auto;
+}
+
+#img5 {
+    max-width: 100%;
+    height: auto;
+}
+
+#classics {
+    padding: 10px;
+    text-align: center;
+    text-justify: auto;
+    background-color: #ffb300;
+}
+
+#shop {
+    padding: 10px;
+    text-align: center;
+    background-color: #ffe600;
+}
+
+#img6 {
+    max-width: 100%;
+    height: auto;
+}
