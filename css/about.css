@@ -106,12 +106,12 @@ h3{
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows:auto;
     grid-template-areas:
-        "header header header header header"
-        "question1 answer1 answer1 answer1 answer1"
-        "note note note note note"
-        "answer2 answer2 answer2 question2 question2"
-        "question3 question3 answer3 answer3 answer3"
-        ". . . . . ";
+    
+    "question1 answer1 answer1 answer1 answer1"
+    "answer2 answer2 answer2 question2 question2"
+    "question3 question3 answer3 answer3 answer3"
+    
+    ". . . . . ";
     
 }
 
