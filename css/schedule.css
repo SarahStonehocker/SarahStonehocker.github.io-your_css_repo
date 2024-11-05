@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+#Events {
+   dsplay: grid;
+   grid-template-areas: none;
+   gap: 20px;
+   margin: 20px;
+   background-color: aqua;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#Seasonperformances {
+   text-align: center;
+}
+
+#Concert1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns: text on the left, image on the right */
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: yellow;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Concert2 { 
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns: text on the left, image on the right */
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: orange;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#Concert3 { 
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns: text on the left, image on the right */
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: yellow;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+#Concert4 { 
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns: text on the left, image on the right */
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: orange;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Concert5 { 
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns: text on the left, image on the right */
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: yellow;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Concert6 { 
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns: text on the left, image on the right */
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: orange;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Concert7 { 
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns: text on the left, image on the right */
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: yellow;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Concert8 { 
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns: text on the left, image on the right */
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: orange;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Concert9 { 
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns: text on the left, image on the right */
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: yellow;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Concert10 { 
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns: text on the left, image on the right */
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: orange;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left column for text content */
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Styling for each text box within the left column */
+.text-content .title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text-content .description {
+    font-size: 1em;
+    color: #000000;
+}
+
+.text-content .datetime {
+    font-size: 0.9em;
+    color: #000000;
+}
+
+/* Styling for the photo container */
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
