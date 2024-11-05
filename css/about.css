@@ -1,0 +1,123 @@
+ #meet{
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+    font-size: 80px;
+    color: white;
+    padding: 200px;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(https://github.com/caseyhunt/WEB-FA_24/blob/main/css_midterm/images/about/Talkback-945x530-1.jpg?raw=true);
+}
+
+#about-header{
+    font-size: 45px;
+    background-color:#ffb300;
+}
+
+
+
+#aboutp{
+    font-size: 20px;
+}
+
+
+#mission {
+    padding: 100px;
+    grid-area: question1;
+    font-size: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+#missionp {
+    
+    padding-top: 10px;
+    grid-area: answer1;
+    text-align: center;
+    background-color: #ffe600;
+    font-size: 50px;
+}
+
+#core-values {
+    padding: 10px;
+    grid-area: question2;
+    font-size: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+#corevalp {
+    padding: 10px;
+    grid-area: answer2;
+    text-align: center;
+    background-color: #ffb300;
+}
+
+#offer {
+    padding: 10px;
+    grid-area: question3;
+    font-size: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+#offerp {
+    padding: 10px;
+    grid-area: answer3;
+    text-align: center;
+    background-color: #ffe600;
+}
+
+#contact{
+    font-size: 45px;
+    background-color:#ffb300;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h3{
+    font-family: "Abril Fatface", serif;
+    font-size: 25px;
+}
+
+
+
+#location{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+#contactid{
+    background-color: #ffe600;
+}
+
+
+.grid {
+    
+    border-width: 5px;
+    border-color: black;
+    margin: 0;
+    padding: 0px;
+    grid-gap: 1px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows:auto;
+    grid-template-areas:
+    
+    "question1 answer1 answer1 answer1 answer1"
+    "answer2 answer2 answer2 question2 question2"
+    "question3 question3 answer3 answer3 answer3"
+    
+    ". . . . . ";
+    
+}
+
+
+
+
+
+
+
